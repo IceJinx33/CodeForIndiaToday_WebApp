@@ -1,0 +1,152 @@
+.app-user {
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 300px auto;
+  margin: 50px;
+  border-radius: 30px;
+}
+
+.app-userNamePic {
+  display: grid;
+  grid-template-rows: 215px 85px;
+}
+
+.app-userPic {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.app-userImage {
+  clip-path: circle(50% at 50% 50%);
+  background-color: #eaeaea;
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.app-userName {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.app-userNameVal {
+  color: #1f41f5;
+  font-size: 50px;
+}
+
+.app-userInfo {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.app-userID {
+  display: grid;
+  grid-template-columns: 150px auto;
+  column-gap: 50px;
+}
+
+.app-userIDTitle {
+  text-align: start;
+  padding: 15px;
+  color: #000000;
+}
+
+.app-userIDVal {
+  text-align: start;
+  padding: 15px;
+  color: #1f41f5
+}
+
+.app-userContact {
+  display: grid;
+  grid-template-columns: 150px auto;
+  column-gap: 50px;
+}
+
+.app-userContactTitle {
+  text-align: start;
+  padding: 15px;
+  color: #000000;
+}
+
+.app-userContactVal {
+  text-align: start;
+  padding: 15px;
+  color: #1f41f5
+}
+
+.accRejButtons {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+.acceptButton {
+  padding: 10px;
+  background-color: #1f41f5;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100px;
+  border: 1px solid #1f41f5;
+}
+
+.acceptButton:focus {
+  outline: none;
+  border: 1px solid #1f41f5;
+}
+
+.acceptButton:active, .acceptButton:hover {
+  outline: none;
+  background-color: white;
+  color: #1f41f5;
+  border: 1px solid #1f41f5;
+}
+
+.rejectButton {
+  padding: 10px;
+  background-color: #6e6e6e;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100px;
+  border: 1px solid #6e6e6e;
+}
+
+.rejectButton:focus {
+  outline: none;
+  border: 1px solid #6e6e6e;
+}
+
+.rejectButton:active, .rejectButton:hover {
+  outline: none;
+  background-color: white;
+  color: #6e6e6e;
+  border: 1px solid #6e6e6e;
+}
+
+.noAppUser {
+  color: #6e6e6e;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}

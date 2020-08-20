@@ -1,0 +1,25 @@
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.navbar-custom {
+  background-color: #1f41f5;
+  padding: 5px;
+}
+
+.navbar-custom .nav-link {
+  color: white;
+  opacity: 0.8;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+    color: white;
+    opacity: 1;
+}
+
+.navbar-custom .nav-link-active {
+  font-weight: bold;
+  opacity: 1;
+}

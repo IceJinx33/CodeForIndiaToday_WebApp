@@ -1,0 +1,59 @@
+.job {
+  background-color: #ffffff;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  padding: 5px;
+  box-shadow: 0px 0px 1px #000000;
+}
+
+.jobImage {
+  background-color: #1f41f5;
+  width: 63px;
+  height: 59px;
+  border-radius: 5px;
+  margin: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.jobimage {
+  max-width: 80%;
+  max-height: 80%;
+  margin-top: 7px;
+}
+
+.jobInfo {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+}
+
+.jobName {
+  font-size: 16px;
+  color: #000000;
+  text-align: start;
+  font-weight: 500;
+  margin: 5px;
+}
+
+
+.jobStatus {
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+  text-align: start;
+  margin: 5px;
+}
+
+.jobDesc {
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+  text-align: start;
+  margin: 5px;
+}
+

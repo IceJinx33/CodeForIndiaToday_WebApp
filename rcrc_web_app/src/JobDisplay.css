@@ -1,0 +1,269 @@
+.jobsPage {
+  margin: 50px;
+  display: grid;
+  grid-template-rows: 70px auto;
+}
+
+.jobButtonRow {
+  height: 50px;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 50px 80%;
+}
+
+.dropdownMenu {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-rows: 50px auto;
+  width: 100%;
+}
+
+.dropButton {
+  padding: 10px;
+  background-color: #1f41f5;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  width: 110px;
+  height: 50px;
+  display: table-cell;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.dropImage {
+  height: 20px;
+  width: 30px;
+  background-color: #1f41f5;
+  border: 3px solid #1f41f5;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.dropButton:focus {
+  outline: none;
+  border: 1px solid #1f41f5;
+}
+
+.dropButton:active, .dropButton:hover {
+  outline: none;
+  background-color: white;
+  color: #1f41f5;
+  border: 1px solid #1f41f5;
+}
+
+.dropdownContent {
+  display: none;
+  margin-left: 50px;
+}
+
+.dropList {
+  width: 200px;
+  padding-right: 7px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border: 1px solid #1f41f5;
+}
+
+.dropLink {
+  border: none;
+  background-color: rgba(243,243,243,0.8);
+  padding: 7px;
+  color: #1f41f5;
+  width: 198px;
+}
+
+.dropLink:hover, .dropLink:active, .dropLink:focus {
+  outline: none;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.jobDisplay {
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 300px auto;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 30px;
+  z-index: 0;
+}
+
+.jobDispDetails {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.jobDisplayImage {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.jobDisplayimage {
+  background-color: #eaeaea;
+  width: 200px;
+  height: 170px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.jobDispInfo {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+}
+
+.jobDispName {
+  font-size: 30px;
+  color: #1f41f5;
+  margin: 5px;
+  text-align: start;
+}
+
+.jobDispStatus {
+  font-size: 23px;
+  color: #000000;
+  margin: 5px;
+  text-align: start;
+  opacity: 0.6;
+}
+
+.jobDispID {
+  font-size: 23px;
+  color: #000000;
+  margin: 5px;
+  text-align: start;
+  opacity: 0.6;
+}
+
+.jobDispDescBody {
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.jobDispDesc {
+  text-align: center;
+}
+
+.jd-form-popup {
+  display: none;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  margin-bottom: -50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 7px #6e6e6e;
+  z-index: 9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.jd-form-container {
+  width: 400px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.jd-formHeading {
+  color: #1f41f5;
+  margin-bottom: 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.jd-enterJobName {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.jd-enterJobDesc {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.jd-enterJobStatus {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.jd-form-container input[type=text] {
+  width: 300;
+  padding: 15px;
+  margin: 7px 0 22px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #1f41f5;
+  opacity: 0.4;
+}
+
+.jd-form-container input[type=text]:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.jd-form-container .jd-submitButton {
+  background-color: #1f41f5;
+  color: white;
+  padding: 16px 20px;
+  border: 2px solid #1f41f5;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.jd-form-container .jd-cancelButton {
+  background-color: #6e6e6e;
+  color: white;
+  padding: 16px 20px;
+  border: 2px solid #6e6e6e;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-weight: bold;
+}
+
+.jd-submitButton:focus, .jd-submitButton:hover {
+  background-color: white;
+  color: #1f41f5;
+}
+
+.jd-cancelButton:focus, .jd-cancelButton:hover {
+  outline: none;
+  background-color: white;
+  color: #6e6e6e;
+}
+
+.noJob {
+  color: #6e6e6e;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+

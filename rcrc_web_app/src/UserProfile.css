@@ -1,0 +1,278 @@
+.user {
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 300px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.userNamePic {
+  display: grid;
+  grid-template-rows: 215px 85px;
+}
+
+.userPic {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.userImage {
+  clip-path: circle(50% at 50% 50%);
+  background-color: #eaeaea;
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.userName {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.userNameVal {
+  color: #1f41f5;
+  font-size: 50px;
+}
+
+.userInfo {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  font-size: 20px;
+  border: 1px solid #eaeaea;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.userID {
+  display: grid;
+  grid-template-columns: 150px auto;
+  column-gap: 50px;
+}
+
+.userIDTitle {
+  text-align: start;
+  padding: 15px;
+  color: #000000;
+}
+
+.userIDVal {
+  text-align: start;
+  padding: 15px;
+  color: #1f41f5
+}
+
+.userContact {
+  display: grid;
+  grid-template-columns: 150px auto;
+  column-gap: 50px;
+}
+
+.userContactTitle {
+  text-align: start;
+  padding: 15px;
+  color: #000000;
+}
+
+.userContactVal {
+  text-align: start;
+  padding: 15px;
+  color: #1f41f5
+}
+
+.ud-form-popup {
+  display: none;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  margin-bottom: -50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 7px #6e6e6e;
+  z-index: 9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ud-form-container {
+  width: 400px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.ud-formHeading {
+  color: #1f41f5;
+  margin-bottom: 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: center;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.ud-enterUserName {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.ud-enterUserContact {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.ud-form-container input[type=text] {
+  width: 300;
+  padding: 15px;
+  margin: 7px 0 22px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #1f41f5;
+  opacity: 0.4;
+}
+
+.ud-form-container input[type=text]:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.ud-form-container .ud-submitButton {
+  background-color: #1f41f5;
+  color: white;
+  padding: 16px 20px;
+  border: 2px solid #1f41f5;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.ud-form-container .ud-cancelButton {
+  background-color: #6e6e6e;
+  color: white;
+  padding: 16px 20px;
+  border: 2px solid #6e6e6e;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-weight: bold;
+}
+
+.ud-submitButton:focus, .ud-submitButton:hover {
+  background-color: white;
+  color: #1f41f5;
+}
+
+.ud-cancelButton:focus, .ud-cancelButton:hover {
+  outline: none;
+  background-color: white;
+  color: #6e6e6e;
+}
+
+.userButtonRow {
+  margin-top: 50px;
+  height: 50px;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 50px 80%;
+}
+
+.u-dropdownMenu {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-rows: 50px auto;
+  width: 100%;
+}
+
+.u-dropButton {
+  padding: 10px;
+  background-color: #1f41f5;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  width: 110px;
+  height: 50px;
+  display: table-cell;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.u-dropImage {
+  height: 20px;
+  width: 30px;
+  background-color: #1f41f5;
+  border: 3px solid #1f41f5;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.u-dropButton:focus {
+  outline: none;
+  border: 1px solid #1f41f5;
+}
+
+.u-dropButton:active, .u-dropButton:hover {
+  outline: none;
+  background-color: white;
+  color: #1f41f5;
+  border: 1px solid #1f41f5;
+}
+
+.u-dropdownContent {
+  display: none;
+  margin-left: 50px;
+}
+
+.u-dropList {
+  width: 200px;
+  padding-right: 7px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border: 1px solid #1f41f5;
+}
+
+.u-dropLink {
+  border: none;
+  background-color: rgba(243,243,243,0.8);
+  padding: 7px;
+  color: #1f41f5;
+  width: 198px;
+}
+
+.u-dropLink:hover, .dropLink:active, .dropLink:focus {
+  outline: none;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.noUser {
+  color: #6e6e6e;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+
+

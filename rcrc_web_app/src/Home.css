@@ -1,0 +1,10 @@
+.home {
+  position: fixed;
+  font-size: 60px;
+  color: #1f41f5;
+  left: 40%;
+  top: 40%;
+  margin-bottom: -40%;
+  margin-right: -40%;
+  transform: translate(40%, 40%);
+}
